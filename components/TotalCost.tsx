@@ -11,7 +11,7 @@ function fmt(n: number) {
 export default function TotalCost({ totalCost }: Props) {
   return (
     <div className={styles.card}>
-      <div className={styles.label}>סה"כ הוצאות</div>
+      <div className={styles.label}>{'סה"כ הוצאות'}</div>
       <div className={styles.value}>₪ {fmt(totalCost)}</div>
     </div>
   )

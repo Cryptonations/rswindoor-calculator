@@ -1,0 +1,92 @@
+.card {
+  background: var(--card);
+  border-radius: 12px;
+  padding: 14px 12px;
+}
+
+.cardGold {
+  border: 1px solid rgba(200, 168, 75, 0.2);
+}
+
+.cardBlue {
+  border: 1px solid rgba(91, 141, 217, 0.2);
+}
+
+.title {
+  font-size: 9px;
+  color: #666;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.inputWrap {
+  margin-bottom: 10px;
+}
+
+.inputLabel {
+  font-size: 10px;
+  color: #666;
+  margin-bottom: 3px;
+}
+
+.inputGold {
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid var(--gold);
+  color: var(--gold);
+  font-size: 18px;
+  font-weight: 700;
+  font-family: inherit;
+  text-align: left;
+  padding: 2px 0;
+  outline: none;
+  direction: ltr;
+  box-sizing: border-box;
+}
+
+.staticBlue {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--blue);
+  padding-bottom: 2px;
+  border-bottom: 2px solid var(--blue);
+  direction: ltr;
+}
+
+.row {
+  margin-bottom: 6px;
+}
+
+.rowLabel {
+  font-size: 10px;
+  color: #666;
+  margin-bottom: 1px;
+}
+
+.rowValue {
+  font-size: 15px;
+  font-weight: 600;
+  direction: ltr;
+  text-align: left;
+}
+
+.badge {
+  border-radius: 8px;
+  padding: 8px;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.badgeLabel {
+  font-size: 9px;
+  color: var(--muted);
+  margin-bottom: 2px;
+}
+
+.badgeValue {
+  font-size: 22px;
+  font-weight: 700;
+}

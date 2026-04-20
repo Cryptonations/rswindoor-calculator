@@ -1,0 +1,19 @@
+.card {
+  border-radius: 12px;
+  padding: 14px 16px;
+  text-align: center;
+}
+
+.label {
+  font-size: 10px;
+  color: #666;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+
+.value {
+  font-size: 26px;
+  font-weight: 700;
+  direction: ltr;
+}

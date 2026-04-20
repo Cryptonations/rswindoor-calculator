@@ -11,7 +11,7 @@ interface Props {
 export default function CostItem({ label, value, onChange, removable, onRemove }: Props) {
   return (
     <div className={styles.card}>
-      {removable && (
+      {removable && onRemove && (
         <button className={styles.removeBtn} onClick={onRemove} aria-label="הסר">
           ×
         </button>
@@ -23,6 +23,8 @@ export default function CostItem({ label, value, onChange, removable, onRemove }
         value={value}
         onChange={e => onChange(e.target.value)}
         inputMode="numeric"
+        min="0"
+        placeholder="0"
       />
       <div className={styles.label}>{label}</div>
     </div>

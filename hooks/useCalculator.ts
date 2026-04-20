@@ -49,11 +49,10 @@ export function useCalculator() {
   const updatePercentItem = (id: number, percent: number) =>
     setPercentItems(prev => prev.map(i => (i.id === id ? { ...i, percent } : i)))
 
-  const addExtraItem = (label: string) =>
-    setExtraItems(prev => [
-      ...prev,
-      { id: Date.now(), key: `extra-${Date.now()}`, label, value: 0 },
-    ])
+  const addExtraItem = (label: string) => {
+    const id = Date.now()
+    setExtraItems(prev => [...prev, { id, key: `extra-${id}`, label, value: 0 }])
+  }
 
   const removeExtraItem = (id: number) =>
     setExtraItems(prev => prev.filter(i => i.id !== id))

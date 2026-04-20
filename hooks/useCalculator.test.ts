@@ -68,4 +68,20 @@ describe('useCalculator', () => {
     // baseTotal=10000, percentTotal = 10000*0.20 + 10000*0.10 = 3000, totalCost=13000
     expect(result.current.totalCost).toBe(13000)
   })
+
+  it('returns targetPrice=0 when targetMargin >= 100', () => {
+    const { result } = renderHook(() => useCalculator())
+    act(() => { result.current.updateItem(1, '10000') })
+    act(() => { result.current.setTargetMargin(100) })
+    expect(result.current.targetPrice).toBe(0)
+  })
+
+  it('setTargetMargin changes targetPrice', () => {
+    const { result } = renderHook(() => useCalculator())
+    act(() => { result.current.updateItem(1, '50000') })
+    // baseTotal=50000, percentTotal=10000, totalCost=60000
+    // margin=50% → targetPrice = 60000 / (1-0.5) = 120000
+    act(() => { result.current.setTargetMargin(50) })
+    expect(result.current.targetPrice).toBeCloseTo(120000, 0)
+  })
 })

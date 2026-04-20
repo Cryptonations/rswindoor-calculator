@@ -1,10 +1,13 @@
 .page {
   min-height: 100vh;
   padding-bottom: 48px;
+  overflow-x: hidden;
 }
 
 .content {
   padding: 0 16px;
+  max-width: 430px;
+  margin: 0 auto;
 }
 
 .sectionLabel {

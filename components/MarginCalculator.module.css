@@ -1,0 +1,93 @@
+.block {
+  background: var(--card);
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+  border: 1px solid #2a2a3a;
+}
+
+.title {
+  font-size: 10px;
+  color: #666;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 14px;
+}
+
+.inputGroup {
+  text-align: center;
+}
+
+.inputLabel {
+  font-size: 10px;
+  color: #666;
+  margin-bottom: 4px;
+}
+
+.inputWrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.pctSign {
+  color: var(--blue);
+  font-size: 20px;
+}
+
+.input {
+  width: 80px;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid var(--blue);
+  color: var(--blue);
+  font-size: 28px;
+  font-weight: 700;
+  font-family: inherit;
+  text-align: center;
+  padding: 2px 0;
+  outline: none;
+  direction: ltr;
+}
+
+.arrow {
+  color: #333;
+  font-size: 24px;
+}
+
+.priceGroup {
+  text-align: center;
+}
+
+.priceLabel {
+  font-size: 10px;
+  color: #666;
+  margin-bottom: 4px;
+}
+
+.priceValue {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--text);
+  direction: ltr;
+}
+
+.profit {
+  text-align: center;
+  font-size: 12px;
+  color: #555;
+}
+
+.profitValue {
+  color: var(--blue);
+}

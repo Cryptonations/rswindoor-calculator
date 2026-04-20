@@ -17,8 +17,8 @@ export default function DeltaBlock({ delta, realPrice }: Props) {
     <div
       className={styles.card}
       style={{
-        background: surplus ? '#0f1f0f' : '#1f0f0f',
-        border: `1px solid ${surplus ? '#2d4a2d' : '#4a2d2d'}`,
+        background: surplus ? '#e8f5e8' : '#fce8e8',
+        border: `1px solid ${surplus ? '#7ab87a' : '#c87878'}`,
       }}
     >
       <div className={styles.label}>

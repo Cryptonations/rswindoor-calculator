@@ -1,13 +1,13 @@
 :root {
-  --bg: #0f0f13;
-  --card: #16161f;
-  --border: #222230;
-  --gold: #c8a84b;
-  --blue: #5b8dd9;
-  --green: #6db86d;
-  --red: #e05c5c;
-  --text: #e8e4d9;
-  --muted: #888888;
+  --bg: #f7f6f2;
+  --card: #ffffff;
+  --border: #e2e0d8;
+  --gold: #a07820;
+  --blue: #3366bb;
+  --green: #2e7d32;
+  --red: #c62828;
+  --text: #1a1a1a;
+  --muted: #777777;
 }
 
 *,

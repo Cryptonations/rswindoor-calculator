@@ -24,7 +24,7 @@ export default function ScenarioTarget({ targetPrice, targetProfit, targetMargin
           ₪ {fmt(targetProfit)}
         </div>
       </div>
-      <div className={styles.badge} style={{ background: '#0f1a2a' }}>
+      <div className={styles.badge} style={{ background: '#e8f0fa' }}>
         <div className={styles.badgeLabel}>מרווח</div>
         <div className={styles.badgeValue} style={{ color: 'var(--blue)' }}>
           {targetMargin.toFixed(1)}%

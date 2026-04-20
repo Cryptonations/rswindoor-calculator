@@ -5,16 +5,16 @@
 }
 
 .cardGold {
-  border: 1px solid rgba(200, 168, 75, 0.2);
+  border: 1px solid rgba(160, 120, 32, 0.35);
 }
 
 .cardBlue {
-  border: 1px solid rgba(91, 141, 217, 0.2);
+  border: 1px solid rgba(51, 102, 187, 0.35);
 }
 
 .title {
   font-size: 9px;
-  color: #666;
+  color: #999;
   letter-spacing: 2px;
   text-transform: uppercase;
   margin-bottom: 10px;
@@ -27,7 +27,7 @@
 
 .inputLabel {
   font-size: 10px;
-  color: #666;
+  color: #999;
   margin-bottom: 3px;
 }
 
@@ -62,7 +62,7 @@
 
 .rowLabel {
   font-size: 10px;
-  color: #666;
+  color: #999;
   margin-bottom: 1px;
 }
 

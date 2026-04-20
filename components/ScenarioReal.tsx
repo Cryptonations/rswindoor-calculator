@@ -45,7 +45,7 @@ export default function ScenarioReal({ clientPrice, realProfit, realMargin, targ
       </div>
       <div
         className={styles.badge}
-        style={{ background: good ? '#0f2a0f' : '#2a0f0f' }}
+        style={{ background: good ? '#e8f5e8' : '#fce8e8' }}
       >
         <div className={styles.badgeLabel}>מרווח</div>
         <div

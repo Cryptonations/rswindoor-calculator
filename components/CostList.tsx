@@ -88,7 +88,7 @@ export default function CostList({
             onKeyDown={e => e.key === 'Enter' && confirmAdd()}
           />
           <button className={styles.addConfirm} onClick={confirmAdd}>✓</button>
-          <button className={styles.addCancel} onClick={() => setAdding(false)}>✕</button>
+          <button className={styles.addCancel} onClick={() => { setAdding(false); setNewLabel('') }}>✕</button>
         </div>
       ) : (
         <button className={styles.addBtn} onClick={() => setAdding(true)}>
